@@ -15,5 +15,19 @@ body {
 }
 
 .bg {
-  background: url(https://www.pexels.com/photo/woman-wears-yellow-hard-hat-holding-vehicle-part-1108101/);  
+  background: url('https://img.freepik.com/free-photo/black-luxury-sport-car-driving-accross-forest_114579-4039.jpg?w=740&t=st=1690926654~exp=1690927254~hmac=511c5a4217e333ee8d15609d7d8f418ac77ff7ce1db83f8eb489c8fc3e7d7382')
+    no-repeat center center/cover;
+  position: absolute; 
+  top: 0;
+  left: -30;
+  width: 100vw; 
+  height: 110vh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+   font-size: 40px;
+   color:white; 
+
 }
